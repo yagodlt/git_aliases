@@ -1,0 +1,58 @@
+# GIT ALIASES
+# general pull/push
+alias pullfrom='git pull origin'
+alias push='git push'
+alias pushto='git push origin'
+alias pp='git pull && git push'
+
+# general branch management
+alias check='git checkout'
+alias fetch='git fetch'
+alias rama='git branch'
+alias ramas='git branch -a'
+alias setupstr='git push --set-upstream origin'
+alias checknew='git checkout -b'
+alias pushtonew='git push -u origin'
+
+# general commit management
+alias commit='git commit -m'
+# stage and commit
+alias commitall='git commit -am'
+# amend commit message
+alias amendcommit='git commit --amend'
+# discard all local changes
+alias discard='git checkout --'
+# stage changes
+alias add='git add'
+# stage all from current directory
+alias addallfdir='git add --all .'
+# stage all from all directories
+alias addall='git add --all :/'
+# unstage all staged changes
+alias unstage='git reset HEAD'
+# stash changes
+alias stash='git stash'
+
+# merging
+alias merge='git merge'
+
+# visualising history
+alias glog='git log --oneline --decorate --graph --all'
+
+# versioning
+# tagging your version
+alias tag='git tag'
+# push tags and go back to develop
+alias pushtags='git push && git push --tags && git checkout develop'
+
+# git flow aliases
+alias flowinit='git flow init'
+alias featup='git flow feature start'
+alias featdown='git flow feature finish'
+alias featpub='git flow feature publish'
+alias featget='git flow feature pull origin'
+alias hotfup='git flow hotfix start'
+alias hotfdown='git flow hotfix finish'
+alias releaseup='git flow release start'
+alias releasedown='git flow release finish'
+alias featprep='check develop && pull'
