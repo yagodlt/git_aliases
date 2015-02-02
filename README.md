@@ -19,3 +19,4 @@ use the command 'source ~/.bashrc' (or 'source ~/.bash_profile'
 if you chose to put them there)
 
 Enjoy!
+
