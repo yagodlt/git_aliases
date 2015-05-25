@@ -1,5 +1,6 @@
 # GIT ALIASES
 # general pull/push
+alias pull='git pull'
 alias pullfrom='git pull origin'
 alias push='git push'
 alias pushto='git push origin'
