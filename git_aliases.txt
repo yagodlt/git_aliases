@@ -16,22 +16,17 @@ alias checknew='git checkout -b'
 alias pushtonew='git push -u origin'
 
 # general commit management
+alias st='git status'
 alias commit='git commit -m'
-# stage and commit
 alias commitall='git commit -am'
-# amend commit message
 alias amendcommit='git commit --amend'
-# discard all local changes
 alias discard='git checkout --'
-# stage changes
 alias add='git add'
 # stage all from current directory
 alias addallfdir='git add --all .'
 # stage all from all directories
 alias addall='git add --all :/'
-# unstage all staged changes
 alias unstage='git reset HEAD'
-# stash changes
 alias stash='git stash'
 
 # merging
