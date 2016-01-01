@@ -1,9 +1,8 @@
 GIT ALIASES readme
 
-This is a list of git aliases that I use nearly every day.
+This is my personal list of git aliases that I use nearly every day.
 
-I hope it's useful to you. If you want to contribute, send
-me a pull request.
+I hope it's useful.
 
 
 INSTALLATION
